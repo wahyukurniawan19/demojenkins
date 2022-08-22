@@ -17,7 +17,7 @@ public class NewTest {
 	}	
 	@BeforeTest
 	public void beforeTest() {	
-	    driver = new FirefoxDriver();  
+		WebDriver driver = (WebDriver) new FirefoxDriver();  
 	}		
 	@AfterTest
 	public void afterTest() {
